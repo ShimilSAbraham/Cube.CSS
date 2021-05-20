@@ -1,10 +1,20 @@
 # Cube.CSS
-### The link to this css file is given below:
-> add this in the 'head' tag of html
+
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+<br>
+[![HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)  &nbsp;
+[![CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) &nbsp;
+
+#### This repository provides information regarding a mini CSS framework aimed to display isometric cubes.
+
+## Getting Started 🍟
+
+#### Copy the link tag given below and paste it in the ```<head>``` section
 ```html
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShimilSAbraham/Cube.CSS@dd2b5f9/cube.css">
 ```
-### To use this in your html, type in the following code:
+#### Copy the html code given below and paste it in the ```<body>``` section
 ```html
 <div class="cube">
   <div class="front grey-l"></div>
@@ -12,7 +22,9 @@
   <div class="top grey"></div>
 </div>
 ```
-### Colors that are available:
+<br>
+
+## Colors 👀:
 * purple    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/purple.png" width="28.5" height="30.25"/>
 * pink      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pink.png" width="30.75" height="30.75"/>
 * blue      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png" width="26.75" height="29.25"/>
@@ -24,18 +36,18 @@
 * pacha     <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pacha.png" width="28" height="30.25"/>
 * yellow    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/yellow.png" width="29.75" height="31.25"/>
 
+<br>
 
-***
+## Color Usage ✏:
 
-### Using the colors with the cube faces:
-> The default that I used was: 
+#### The default that I used was: 
 * 'color' class along with 'top'
 * 'color-l' class along with 'front'
 * 'color-d' class along with 'side'
 
 > use '-l' along with color name to get its lighter shade and '-d' for darker shade
 
-#### Code:
+### Code:
 ```html
 <div class="cube">
   <div class="front blue-l"></div>
@@ -44,20 +56,22 @@
 </div>
 ```
 
-#### Result:
+### Result:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png"/>
 
 > *that doesn't mean you have to stick on with this... let your mind do the work*
-***
-### Hover Effects:
-> There are two effects right now:
-> * fly
-> * open
 
-* to make it fly, add these classes t-fly, f-fly, s-fly
-* to open it up, add these classes t-open, f-open, s-open
+<br>
 
-#### Code-1:
+## Hover Effects 🧚‍♂️:
+#### There are two effects right now:
+* fly
+* open
+
+> to make it fly, add these classes t-fly, f-fly, s-fly
+> to open it up, add these classes t-open, f-open, s-open
+
+### Code-1:
 ```html
 <div class="cube">
   <div class="top red t-fly"></div>
@@ -65,10 +79,10 @@
   <div class="side red-d s-fly"></div>
 </div>
 ```
-#### Result-1:
+### Result-1:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/red-fly.gif" width=140 height=140 />
 
-#### Code-2:
+### Code-2:
 ```html
 <div class="cube">
   <div class="top orange t-open"></div>
@@ -76,12 +90,12 @@
   <div class="side orange-d s-open"></div>
 </div>
 ```
-#### Result-2:
+### Result-2:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/orange-open.gif" width=140 height=140 />
 
 > *you can even make your own custom hover by interchanging these hover classes to the div's that u desire*
 
-#### Code:
+### Code-3:
 ```html
 <div class="cube">
   <div class="front grey-l f-open"></div>
@@ -89,10 +103,10 @@
   <div class="top grey t-fly"></div>
 </div>
 ```
-#### Result:
+### Result-3:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/grey-open.gif" width=140 height=140 />
 
-#### Code:
+### Code-4:
 ```html
 <div class="cube">
   <div class="front pacha-l f-fly"></div>
@@ -100,10 +114,10 @@
   <div class="top pacha t-fly"></div>
 </div>
 ```
-#### Result:
+### Result-4:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/pacha-open.gif" width=140 height=140 />
 
-#### Code:
+### Code-5:
 ```html
 <div class="cube">
   <div class="front purple-l s-fly"></div>
@@ -111,10 +125,10 @@
   <div class="top purple t-open"></div>
 </div>
 ```
-#### Result:
+### Result-5:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/purple-fly.gif" width=140 height=140 />
 
-#### Code:
+### Code-6:
 ```html
 <div class="cube">
   <div class="front pink-l s-fly"></div>
@@ -122,9 +136,14 @@
   <div class="top pink f-open"></div>
 </div>
 ```
-#### Result:
+### Result-6:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/pink-swirl.gif" width=140 height=140 />
 
+<br>
+
+[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)  &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+<br>
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com) 
+
 ***
-
-
