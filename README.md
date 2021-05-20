@@ -12,18 +12,18 @@
 </div>
 ```
 ### Colors that are available:
-* purple
-* pink
-* blue
-* red
-* green
-* orange
-* indigo
-* grey
-* pacha
-* yellow
+* purple    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/purple.png" width="28.5" height="30.25"/>
+* pink      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pink.png" width="30.75" height="30.75"/>
+* blue      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png" width="26.75" height="29.25"/>
+* red       <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/red.png" width="29" height="29"/>
+* green     <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/green.png" width="29.25" height="29.25"/>
+* orange    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/orange.png" width="28.25" height="30.25"/>
+* indigo    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/indigo.png" width="27.75" height="30"/>
+* grey      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/grey.png" width="28.25" height="29.75"/>
+* pacha     <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pacha.png" width="28" height="30.25"/>
+* yellow    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/yellow.png" width="29.75" height="31.25"/>
 
-> use '-l' along with color name to get its lighter shade and '-d' for darker shade
+
 ***
 
 ### Using the colors with the cube faces:
@@ -38,6 +38,10 @@
   <div class="top blue"></div>
 </div>
 ```
+> use '-l' along with color name to get its lighter shade and '-d' for darker shade
+#### Result:
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png"/>
+
 > *that doesn't mean you have to stick on with this... let your mind do the work*
 ***
 ### Hover Effects:
@@ -50,11 +54,23 @@
 
 ```html
 <div class="cube">
-     <div class="top grey t-open"></div>
-    <div class="front grey-l f-open"></div>
-    <div class="side grey-d s-open"></div>
-    </div>
+  <div class="top grey t-fly"></div>
+  <div class="front grey-l f-fly"></div>
+  <div class="side grey-d s-fly"></div>
+</div>
 ```
+#### Result:
+
+
+```html
+<div class="cube">
+  <div class="top grey t-open"></div>
+  <div class="front grey-l f-open"></div>
+  <div class="side grey-d s-open"></div>
+</div>
+```
+#### Result:
+
 
 > *you can even make your own custom hover by interchanging these hover classes to the div's that u desire*
 > For example:
