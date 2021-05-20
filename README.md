@@ -1,12 +1,12 @@
 # Cube.CSS
 
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
-<br>
-[![HTML](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)  &nbsp;
-[![CSS](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) &nbsp;
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/built-with-love.svg" width="17%" height="17%"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/check-it-out.svg)
+<br><br>
+![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/made-with-html.svg)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/made-with-css.svg)  
 
-#### This repository provides information regarding a mini CSS framework aimed to display isometric cubes.
+### This repository provides information regarding a mini CSS framework aimed to display isometric cubes.
 
 ## Getting Started 🍟
 
@@ -25,20 +25,20 @@
 <br>
 
 ## Colors 👀:
-* purple    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/purple.png" width="28.5" height="30.25"/>
-* pink      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pink.png" width="30.75" height="30.75"/>
-* blue      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png" width="26.75" height="29.25"/>
-* red       <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/red.png" width="29" height="29"/>
-* green     <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/green.png" width="29.25" height="29.25"/>
-* orange    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/orange.png" width="28.25" height="30.25"/>
-* indigo    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/indigo.png" width="27.75" height="30"/>
-* grey      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/grey.png" width="28.25" height="29.75"/>
-* pacha     <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pacha.png" width="28" height="30.25"/>
-* yellow    <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/yellow.png" width="29.75" height="31.25"/>
+* purple &nbsp;                         <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/purple.png" width="28.5" height="30.25"/>
+* pink   &nbsp;&nbsp;&nbsp;&nbsp;       <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pink.png" width="30.75" height="30.75"/>
+* blue   &nbsp;&nbsp;&nbsp;&nbsp;       <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png" width="26.75" height="29.25"/>
+* red    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/red.png" width="29" height="29"/>
+* green  &nbsp;                         <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/green.png" width="29.25" height="29.25"/>
+* orange                                <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/orange.png" width="28.25" height="30.25"/>
+* indigo  &nbsp;                        <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/indigo.png" width="27.75" height="30"/>
+* grey    &nbsp;&nbsp;&nbsp;&nbsp;      <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/grey.png" width="28.25" height="29.75"/>
+* pacha   &nbsp;&nbsp;                  <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pacha.png" width="28" height="30.25"/>
+* yellow  &nbsp;                        <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/yellow.png" width="29.75" height="31.25"/>
 
 <br>
 
-## Color Usage ✏:
+## Color Usage ⛏:
 
 #### The default that I used was: 
 * 'color' class along with 'top'
@@ -141,9 +141,13 @@
 
 <br>
 
-[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)  &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-<br>
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com) 
+***
+
+![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/built-by-shimil.svg)
+![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/ctrl-c-ctrl-v.svg)
+<br><br>
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/powered-by-killadi.svg" width=40% height=40% />
+![]() 
 
 ***
+
