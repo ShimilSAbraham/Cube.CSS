@@ -1,5 +1,6 @@
 # Cube.CSS
 ### The link to this css file is given below:
+> add this in the 'head' tag of html
 ```html
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShimilSAbraham/Cube.CSS@dd2b5f9/cube.css">
 ```
@@ -31,6 +32,10 @@
 * 'color' class along with 'top'
 * 'color-l' class along with 'front'
 * 'color-d' class along with 'side'
+
+> use '-l' along with color name to get its lighter shade and '-d' for darker shade
+
+#### Code:
 ```html
 <div class="cube">
   <div class="front blue-l"></div>
@@ -38,7 +43,7 @@
   <div class="top blue"></div>
 </div>
 ```
-> use '-l' along with color name to get its lighter shade and '-d' for darker shade
+
 #### Result:
 <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png"/>
 
@@ -52,28 +57,53 @@
 * to make it fly, add these classes t-fly, f-fly, s-fly
 * to open it up, add these classes t-open, f-open, s-open
 
+#### Code-1:
 ```html
 <div class="cube">
-  <div class="top grey t-fly"></div>
-  <div class="front grey-l f-fly"></div>
-  <div class="side grey-d s-fly"></div>
+  <div class="top red t-fly"></div>
+  <div class="front red-l f-fly"></div>
+  <div class="side red-d s-fly"></div>
 </div>
 ```
-#### Result:
+#### Result-1:
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/red-fly.gif" width=140 height=140 />
 
-
+#### Code-2:
 ```html
 <div class="cube">
-  <div class="top grey t-open"></div>
-  <div class="front grey-l f-open"></div>
-  <div class="side grey-d s-open"></div>
+  <div class="top orange t-open"></div>
+  <div class="front orange-l f-open"></div>
+  <div class="side orange-d s-open"></div>
 </div>
 ```
-#### Result:
-
+#### Result-2:
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/orange-open.gif" width=140 height=140 />
 
 > *you can even make your own custom hover by interchanging these hover classes to the div's that u desire*
-> For example:
+
+#### Code:
+```html
+<div class="cube">
+  <div class="front grey-l f-open"></div>
+  <div class="side grey-d s-fly"></div>
+  <div class="top grey t-fly"></div>
+</div>
+```
+#### Result:
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/grey-open.gif" width=140 height=140 />
+
+#### Code:
+```html
+<div class="cube">
+  <div class="front pacha-l f-fly"></div>
+  <div class="side pacha-d s-open"></div>
+  <div class="top pacha t-fly"></div>
+</div>
+```
+#### Result:
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/pacha-open.gif" width=140 height=140 />
+
+#### Code:
 ```html
 <div class="cube">
   <div class="front purple-l s-fly"></div>
@@ -81,6 +111,20 @@
   <div class="top purple t-open"></div>
 </div>
 ```
+#### Result:
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/purple-fly.gif" width=140 height=140 />
+
+#### Code:
+```html
+<div class="cube">
+  <div class="front pink-l s-fly"></div>
+  <div class="side pink-d t-fly"></div>
+  <div class="top pink f-open"></div>
+</div>
+```
+#### Result:
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/hover-gifs/pink-swirl.gif" width=140 height=140 />
+
 ***
 
 
