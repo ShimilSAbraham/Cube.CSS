@@ -1,0 +1,121 @@
+/*------COLORS------*/
+.purple{background: #8a00e6;}
+.purple-l{background: #c266ff;}
+.purple-d{background: #4c0080;}
+
+.pink{background: #ff1a75;}
+.pink-l{background: #ff66a3;}
+.pink-d{background: #e6005c;}
+
+.blue{background: #1a75ff;}
+.blue-l{background: #80b3ff;}
+.blue-d{background: #0052cc;}
+
+.red{background: #f44336;}
+.red-l{background: #ef9a9a;}
+.red-d{background: #c62828;}
+
+.green{background: #00e676;}
+.green-l{background: #69f0ae;}
+.green-d{background: #08c463;}
+
+.orange{background: #ff9800;}
+.orange-l{background: #ffa726;}
+.orange-d{background: #ef6c00;}
+
+.yellow{background: #f2d600;}
+.yellow-l{background: #f3e260;}
+.yellow-d{background: #d9b51c;}
+
+.indigo{background: #3f51b5;}
+.indigo-l{background: #7986cb;}
+.indigo-d{background: #1a237e;}
+
+.grey{background: #616161;}
+.grey-l{background: #9e9e9e;}
+.grey-d{background: #424242;}
+
+.pacha{background: #76ff03;}
+.pacha-l{background: #b2ec59;}
+.pacha-d{background: #64c017;}
+
+/* -------Content-------- */
+
+body{
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-wrap: wrap; 
+}
+
+.cube{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+.top{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  transform: rotate(210deg) skew(-30deg) translate(33.5px,20.5px) scaleY(0.864);
+  transition: transform 0.5s ease;
+}
+
+.front{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+/*     transform-origin: 0 0; */
+  transform: rotate(-30deg) skewX(-30deg) translate(30px,40px) scaleY(0.864);
+  transition: transform 0.5s ease;
+}
+
+.side{
+  position: absolute;
+/*     transform-origin: 0 0; */
+  width: 80px;
+  height: 80px;
+  transform: rotate(90deg) skewX(-30deg) scaleY(0.864) translate(56px, 50px);
+  transition: transform 0.5s ease;
+}
+
+/* -------Opening Hover---------*/
+
+.cube:hover .t-open{
+  transform: rotate(210deg) skew(-30deg) translate(55px,40px) scaleY(0.864);
+  transition: transform 0.5s ease;
+}
+
+.cube:hover .f-open{
+  transform: rotate(-30deg) skewX(-30deg) translate(50px,50px) scaleY(0.864);
+  transition: transform 0.5s ease;
+}
+
+.cube:hover .s-open{
+  transition: transform 0.5s ease;
+  transform: rotate(90deg) skewX(-30deg) scaleY(0.864) translate(65px, 65px);
+}
+
+.cube:hover .t-fly{
+  transform: rotate(210deg) skew(-30deg) translate(55px,40px) scaleY(0.864);
+  transition: transform 0.5s ease;
+}
+
+/* -------Flying Hover---------*/
+
+.cube:hover .f-fly{
+  transform: rotate(-30deg) skewX(-30deg) translate(31.5px,21.5px) scaleY(0.864);
+  transition: transform 0.5s ease;
+}
+
+.cube:hover .s-fly{
+  transition: transform 0.5s ease;
+  transform: rotate(90deg) skewX(-30deg) scaleY(0.864) translate(33px, 48px);
+}
