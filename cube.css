@@ -41,15 +41,6 @@
 
 /* -------Content-------- */
 
-body{
-  height: 100vh;
-  background: #111;
-  display: flex;
-  justify-content: space-around;
-  align-items: space-around;
-  flex-wrap: wrap; 
-}
-
 .cube{
   position: relative;
   width: 200px;
