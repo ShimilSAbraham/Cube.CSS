@@ -1,10 +1,11 @@
 # Cube.CSS
 
-<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/built-with-love.svg" width="17%" height="17%"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/check-it-out.svg)
+![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/check-it-out.svg) &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/built-with-love.svg" width="170" />
 <br><br>
-![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/made-with-html.svg)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/made-with-css.svg)  
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/made-with-html.svg" height="38" />  &nbsp;&nbsp;&nbsp;
+![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/made-with-css.svg)  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/ctrl-c-ctrl-v.svg" height="40" />
 
 ### This repository provides information regarding a mini CSS framework aimed to display isometric cubes.
 
@@ -144,10 +145,8 @@
 ***
 
 ![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/built-by-shimil.svg)
-![](https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/ctrl-c-ctrl-v.svg)
-<br><br>
-<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/powered-by-killadi.svg" width=40% height=40% />
-![]() 
+<br>
+<img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/svg/powered-by-killadi.svg" height=35 />
 
 ***
 
