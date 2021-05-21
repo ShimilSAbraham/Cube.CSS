@@ -39,6 +39,27 @@
 .pacha-l{background: #b2ec59;}
 .pacha-d{background: #64c017;}
 
+.cyan{background: #00ffff;}
+.cyan-l{background: #80ffff;}
+.cyan-d{background: #009999;}
+
+.teal{background: #008080;}
+.teal-l{background: #00cccc;}
+.teal-d{background: #003333;}
+
+.steelblue{background: #4682b4;}
+.steelblue-l{background: #6c9dc6;}
+.steelblue-d{background: #325d81;}
+
+/* ------Gradients------- */
+
+.grad1,.grad1-l,.grad1-d{background: linear-gradient( 110deg,  rgba(93,52,236,1) 10%, rgba(62,161,219,1)  100% );}
+.grad2,.grad2-l,.grad2-d{background: linear-gradient( 45deg, #FFF720 10%, #3CD500 100%);}
+.grad3,.grad3-l,.grad3-d{background: linear-gradient( 300deg,  rgba(225,109,245,1) 7%, rgba(78,248,231,1) 110% );}
+.grad4,.grad4-l,.grad4-d{background: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);}
+.grad5,.grad5-l,.grad5-d{background: linear-gradient( 45deg, #69FF97 30%, #00E4FF 90%);}
+.grad6,.grad6-l,.grad6-d{background: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%);}
+
 /* -------Content-------- */
 
 .cube{
@@ -94,12 +115,11 @@
   transform: rotate(90deg) skewX(-30deg) scaleY(0.864) translate(65px, 65px);
 }
 
+/* -------Flying Hover---------*/
 .cube:hover .t-fly{
   transform: rotate(210deg) skew(-30deg) translate(55px,40px) scaleY(0.864);
   transition: transform 0.5s ease;
 }
-
-/* -------Flying Hover---------*/
 
 .cube:hover .f-fly{
   transform: rotate(-30deg) skewX(-30deg) translate(31.5px,21.5px) scaleY(0.864);
