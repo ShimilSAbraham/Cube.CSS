@@ -25,7 +25,7 @@
 ```
 <br>
 
-## Colors 👀:
+## Colors 💫:
 * purple &nbsp;                         <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/purple.png" width="28.5" height="30.25"/>
 * pink   &nbsp;&nbsp;&nbsp;&nbsp;       <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pink.png" width="30.75" height="30.75"/>
 * blue   &nbsp;&nbsp;&nbsp;&nbsp;       <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/blue.png" width="26.75" height="29.25"/>
@@ -37,6 +37,17 @@
 * pacha   &nbsp;&nbsp;                  <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/pacha.png" width="28" height="30.25"/>
 * yellow  &nbsp;                        <img src="https://github.com/ShimilSAbraham/Cube.CSS/blob/main/src/img/colors/yellow.png" width="29.75" height="31.25"/>
 
+## Contributions ✨: 
+### Contributed by [VRT36](https://github.com/VRT36)
+* cyan
+* teal
+* steelblue
+* grad1
+* grad2
+* grad3
+* grad4
+* grad5
+* grad6
 <br>
 
 ## Color Usage ⛏:
