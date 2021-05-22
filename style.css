@@ -1,0 +1,422 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg: #add8e6;
+    --grey: #1b1b1b;
+    --nav: #5576da;
+    --light: #80b3ff;
+    --dark:#0052CC;
+    --color:#1a75ff;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.front{background: var(--light);}
+.side{background-color: var(--dark);}
+.top{background: var(--color);}
+
+/* ===========header=========== */
+
+.header{
+    padding: 7px 0;
+    height: 6vh;
+    /* background: #00719c; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+.header .logo .cube{
+    margin: 0 -25%;
+    transform: scale(0.3);
+}
+.header .logo .text{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -3%;
+}
+.header .menu{
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;  
+}
+.header .menu i{
+    color: var(--dark);
+    transform: scale(1.5);
+    transition: 0.3s ease;
+}
+.header .menu:hover i{
+    color: var(--grey);
+    transform: scale(1.6);
+    transition: 0.3s ease;
+}
+
+/* ===========nav=========== */
+
+.nav{
+    position: absolute;
+    top: 0;
+    right: -50%;
+    height: 100vh;
+    width: 50%;
+    background: var(--nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    transition: 0.5s ease;
+}
+.nav .close{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+.nav .close i{
+    color: 	var(--bg);
+    transform: scale(2.5);
+    transition: 0.3s ease;
+}
+.nav .close i:hover{
+    color: 	var(--grey);
+    transform: scale(3);
+    transition: 0.3s ease;
+    
+}
+.nav svg{
+    position: absolute;
+    transform: scale(1.5);
+    bottom: 5%;
+    right: 10%;
+    transition: 0.5s ease;
+}
+.nav svg:hover{
+    bottom: 7%;
+    transition: 0.5s ease;
+}
+.nav svg #Vector{
+    transition: 0.5s ease;
+}
+.nav svg #change{
+    fill: var(--dark);
+    transition: 0.5s ease;
+}
+.nav svg:hover #Vector{
+    fill: var(--dark);
+    transition: 0.5s ease;
+}
+.nav svg:hover #change{
+    fill: #212121;
+    transition: 0.5s ease;
+}
+.nav .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 70px;
+    width: 300px;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; 
+    margin-bottom: 5%;
+    color: var(--dark);
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-self: flex-start;
+}
+.nav .item:hover{
+    transition: 0.3s ease;
+    background: var(--bg);
+}
+.nav .item .cube{
+    /* background: #000; */
+    transform: scale(0.4);
+}
+.nav .item .cube .front,.side,.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: var(--grey);
+}
+.nav .item .cube .front i{
+    transform: scale(3);
+}
+.nav .item .cube .side i{
+    transform: scale(3) rotate(270deg);
+}
+.nav .item .cube .top i{
+    transform: scale(3) rotate(90deg);
+}
+.nav .item .title{
+    position: relative;
+    opacity: 0;
+    font-weight: 600;
+    margin-right: -15%;
+    font-size: 26px;
+    text-align: center;
+    color: transparent;
+    width: 100px;
+    height: 30px;
+    transition: 0.3s ease;
+}
+.nav .item:hover .title{
+    opacity: 100;
+    color: var(--grey);
+    transition: 0.3s ease;
+}
+
+/* ========Content========== */
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: #212121; */
+}
+.content .head{
+    /* background: white; */
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .head .text1{
+    font-weight: bolder;
+    margin-top: -75%;
+    font-size: 110px;
+    color: var(--grey);
+    z-index: 1;
+}
+.content .head .text2{
+    font-family: 'Luckiest Guy', cursive;
+    position: absolute;
+    margin-top: -10%;
+    font-weight: 900;
+    font-size: 300px;
+    color: var(--dark);
+    z-index: 0;
+}
+
+
+.content .sub{
+    /* background: #000; */
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content .sub .text{
+    width: 50%;
+    height: 70%;
+    margin: -20% 5% 0 -5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+h2{
+    align-self: flex-start;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--grey);
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    padding: 10px;  
+    display: flex;
+    align-items: space-around;
+    flex-direction: column;
+    margin-left: -3%;
+    margin-bottom: -2%;
+}
+
+span{
+    width: 25%;
+    height: 8px;
+    background-color: var(--dark);
+    transition: 0.5s ease;
+}
+
+h2:hover span{
+    transition: 0.5s ease;
+    width: 100%;
+}
+
+.content .sub .text p{
+    font-weight: 600;
+    font-size: 17px;
+    align-self: flex-start;
+    width: 300px;
+    color: #303030;
+}
+
+.content .sub .text .colored{
+    color: var(--dark);
+}
+
+.content .sub .image svg{
+    /* margin-top: 85%; */
+    width: 180px;
+}
+
+.content .sub .image svg .color{
+    fill: var(--color);
+}
+.content .sub .image svg .light{
+    fill: var(--light);
+}
+.content .sub .image svg .dark{
+    fill: var(--dark);
+}
+
+
+
+@media (max-width: 500px){
+    body{
+        height: 100vh;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: initial;
+    }
+    .header{
+        position: relative;
+        /* background: white; */
+        height: 15vh;
+        justify-content: center;
+    }
+    .header .menu{
+        display: none;
+    }
+    .header .logo{
+        position: absolute;
+        top: 0;
+        /* background: #000; */
+        width: 200px;
+        height: 100px;
+    }
+    .header .logo .cube{
+        margin: 0 0;
+        margin-right: -12%;
+        transform: scale(0.5);
+    }
+    .header .logo .text{
+        font-size: 30px;
+    }
+    .nav{
+        position: fixed;
+        top: inherit;
+        bottom: 0;
+        left: 0%;
+        flex-direction: row;
+        height: 15vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .nav .item{
+        margin: 0;
+        border-radius: 0px;
+        padding: 0;
+        height: 50px;
+        width: 100px;
+        align-self: initial;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background: #000; */
+    margin-left: -4%;
+    margin-right: -4%;
+    }
+    .nav .item:hover{
+        background: transparent;
+    }
+    .nav .item .cube{
+        /* background: #000; */
+        transform: scale(0.35);
+    }
+    .nav .close{
+        display: none;
+    }
+    .nav svg{
+        display: none;
+    }
+    .nav .item .title{
+        display: none;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content .head{
+        justify-content: center;
+        /* height: 120vh; */
+        width: 100vw;
+        margin-top: 10%;
+    }
+    .content .head .text1{
+        margin-top: -125%;
+        font-size: 80px;
+    }
+    .content .head .text2{
+        margin-top: -60%;
+        font-size: 200px;
+    }
+    .content .sub{
+        position: relative;
+        flex-direction: column-reverse;
+        height: 80vh;
+    }
+    .content .sub .image{
+        position: absolute;
+        top: -50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+    .content .sub .text{
+        height: 20vh;
+        margin-top: -100%;
+    }
+    .content .sub .text h2{
+        margin-left: -80%;
+        margin-top: -80%;
+        width: 300px;
+    }
+    .content .sub .text p{
+        display: none;
+    }
+    span{
+        width: 20%;
+    }
+    h2:hover span{
+        width: initial;
+    }
+
+}
