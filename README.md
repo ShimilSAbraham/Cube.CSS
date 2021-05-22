@@ -13,7 +13,7 @@
 
 #### Copy the link tag given below and paste it in the ```<head>``` section
 ```html
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShimilSAbraham/Cube.CSS@dd2b5f9/cube.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShimilSAbraham/Cube.CSS@45d9c3f/cube.css">
 ```
 #### Copy the html code given below and paste it in the ```<body>``` section
 ```html
